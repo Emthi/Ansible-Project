@@ -1,6 +1,6 @@
 ---
 - name: start httpd service if it is not running
-  hosts: web
+  hosts: all
   become: yes
   tasks:
     - name: check httpd service and start it
